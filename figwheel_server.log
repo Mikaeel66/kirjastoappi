@@ -29771,3 +29771,11 @@ notifying browser that file changed:  public/js/out/kehys/events.js
 Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
 [32mSuccessfully compiled build :app to "public/js/app.js" in 0.698 seconds.[0m
 notifying browser that file changed:  public/js/out/kehys/events.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 8.838 seconds.[0m
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.823 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
