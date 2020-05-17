@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "/Users/mikamarkuksela/dev/clojure/muuvi"
+		},
+		{
+			"path": "/Users/mikamarkuksela/dev/clojure/ttt"
+		},
+		{
+			"path": "/Users/mikamarkuksela/dev/clojure/reagentest"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../shouter"
+		}
+	]
+}
