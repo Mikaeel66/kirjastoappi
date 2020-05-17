@@ -6,8 +6,8 @@ goog.require('re_frame.loggers');
 re_frame.registrar.kinds = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"sub","sub",-2093760025),null,new cljs.core.Keyword(null,"event","event",301435442),null,new cljs.core.Keyword(null,"cofx","cofx",2013202907),null,new cljs.core.Keyword(null,"fx","fx",-1237829572),null], null), null);
 re_frame.registrar.kind__GT_id__GT_handler = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
 re_frame.registrar.get_handler = (function re_frame$registrar$get_handler(var_args){
-var G__42584 = arguments.length;
-switch (G__42584) {
+var G__45758 = arguments.length;
+switch (G__45758) {
 case 1:
 return re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -69,8 +69,8 @@ cljs.core.swap_BANG_.call(null,re_frame.registrar.kind__GT_id__GT_handler,cljs.c
 return handler_fn;
 });
 re_frame.registrar.clear_handlers = (function re_frame$registrar$clear_handlers(var_args){
-var G__42587 = arguments.length;
-switch (G__42587) {
+var G__45761 = arguments.length;
+switch (G__45761) {
 case 0:
 return re_frame.registrar.clear_handlers.cljs$core$IFn$_invoke$arity$0();
 
@@ -118,4 +118,4 @@ return re_frame.loggers.console.call(null,new cljs.core.Keyword(null,"warn","war
 (re_frame.registrar.clear_handlers.cljs$lang$maxFixedArity = 2);
 
 
-//# sourceMappingURL=registrar.js.map?rel=1589675442035
+//# sourceMappingURL=registrar.js.map?rel=1589676414816

@@ -110,10 +110,10 @@
 
 [:ul
     (for [i (:records @kanavat)]
-      [:li (:title i) 
-      (str "--> " (map #(str % "-> " (% i)) (keys i))) 
-      " " (:id i)
-      ])]
+      [:li (:title i)
+      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) 
+      ;" " (:id i)
+       ])]
 
 
       ;(str " qw--->    " (keys (nth (:records @kanavat)0)) 
