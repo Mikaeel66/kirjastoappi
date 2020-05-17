@@ -112,7 +112,7 @@
     (for [i (:records @kanavat)]
       [:li (:title i) 
       ;(str "--> " (map #(str % "-> " (% i)) (keys i))) 
-      ;" " (:id i)
+      " " (:id i)
       ])]
 
 
