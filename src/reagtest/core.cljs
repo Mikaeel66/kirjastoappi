@@ -78,7 +78,7 @@
 
     [:div {:style {:display "grid" :grid-template-columns "1fr 1fr"}}
 
-     [:div  {:contenteditable "true" :style {:heigth "110" :border "solid 2px"}} (->> @kaikki :error testii)[:br] "Valitse:" [:br] [:br]
+     [:div  {:contenteditable "true" :style {:heigth "1103" :border "solid 2px"}} (->> @kaikki :error testii)[:br] "Valitse:" [:br] [:br]
 
       (map #(Walinta (:id %) (:teksti %) (if (= @name (:id %)) "grey" "lightgrey"))
               ;edn/read-string (

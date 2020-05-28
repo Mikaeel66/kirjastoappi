@@ -13,4 +13,4 @@ cljs.core.enable_console_print_BANG_.call(null);
 devtools.core.install_BANG_.call(null);
 reagtest.core.init_BANG_.call(null);
 
-//# sourceMappingURL=dev.js.map?rel=1590675712969
+//# sourceMappingURL=dev.js.map?rel=1590675852193
