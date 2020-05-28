@@ -5,10 +5,10 @@ goog.require('cognitect.transit');
 goog.require('ajax.interceptors');
 goog.require('ajax.protocols');
 goog.require('ajax.util');
-ajax.transit.transit_type = (function ajax$transit$transit_type(p__45069){
-var map__45070 = p__45069;
-var map__45070__$1 = (((((!((map__45070 == null))))?(((((map__45070.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__45070.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__45070):map__45070);
-var type = cljs.core.get.call(null,map__45070__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+ajax.transit.transit_type = (function ajax$transit$transit_type(p__48586){
+var map__48587 = p__48586;
+var map__48587__$1 = (((((!((map__48587 == null))))?(((((map__48587.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48587.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__48587):map__48587);
+var type = cljs.core.get.call(null,map__48587__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 var or__4185__auto__ = type;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -38,8 +38,8 @@ return cognitect.transit.write.call(null,writer,params);
  * :handlers Custom Transit handlers (refer to Transit documentation)
  */
 ajax.transit.transit_request_format = (function ajax$transit$transit_request_format(var_args){
-var G__45073 = arguments.length;
-switch (G__45073) {
+var G__48590 = arguments.length;
+switch (G__48590) {
 case 0:
 return ajax.transit.transit_request_format.cljs$core$IFn$_invoke$arity$0();
 
@@ -86,8 +86,8 @@ return cognitect.transit.read.call(null,reader,ajax.protocols._body.call(null,re
  * :handlers Custom Transit handlers (refer to Transit documentation)
  */
 ajax.transit.transit_response_format = (function ajax$transit$transit_response_format(var_args){
-var G__45076 = arguments.length;
-switch (G__45076) {
+var G__48593 = arguments.length;
+switch (G__48593) {
 case 0:
 return ajax.transit.transit_response_format.cljs$core$IFn$_invoke$arity$0();
 
@@ -121,4 +121,4 @@ return ajax.interceptors.map__GT_ResponseFormat.call(null,new cljs.core.Persiste
 (ajax.transit.transit_response_format.cljs$lang$maxFixedArity = 2);
 
 
-//# sourceMappingURL=transit.js.map?rel=1589676412834
+//# sourceMappingURL=transit.js.map?rel=1589677402866

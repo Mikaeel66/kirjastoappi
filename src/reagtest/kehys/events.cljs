@@ -52,7 +52,7 @@
       (assoc db :finna_haku new-value)
       (rf/dispatch [:get-api-data :categories 
       ;(str "https://api.finna.fi/v1/search?lookfor=" new-value "*")]))
-      (str "https://api.finna.fi/v1/search?filter[]=~building:0/Helmet/&lookfor=" new-value "*")]))
+      (str "https://api.finna.fi/v1/search?filter[]=~building:0/Helmet/&filter[]=~building:0/Kirkes/&lookfor=" new-value "*")]))
       
       ;"https://api.finna.fi/v1/search?lookfor=&limit=0&facet[]=building"]))
       

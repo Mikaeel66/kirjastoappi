@@ -270,8 +270,8 @@ throw cljs.core.missing_protocol.call(null,"Buffer.close-buf!",b);
 });
 
 cljs.core.async.impl.protocols.add_BANG_ = (function cljs$core$async$impl$protocols$add_BANG_(var_args){
-var G__47347 = arguments.length;
-switch (G__47347) {
+var G__56183 = arguments.length;
+switch (G__56183) {
 case 1:
 return cljs.core.async.impl.protocols.add_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -308,4 +308,4 @@ return cljs.core.async.impl.protocols.add_BANG__STAR_.call(null,b,itm);
 cljs.core.async.impl.protocols.UnblockingBuffer = function(){};
 
 
-//# sourceMappingURL=protocols.js.map?rel=1589676418612
+//# sourceMappingURL=protocols.js.map?rel=1589677412372

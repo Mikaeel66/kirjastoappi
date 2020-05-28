@@ -29779,3 +29779,622 @@ notifying browser that file changed:  public/js/out/reagtest/core.js
 Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
 [32mSuccessfully compiled build :app to "public/js/app.js" in 0.823 seconds.[0m
 notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 19.255 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.711 seconds.[0m
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.643 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.63 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.619 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.624 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.618 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.676 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.634 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.628 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.641 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.635 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.639 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.615 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.608 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.623 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :t%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:t%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :t%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :t%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:t%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :t%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.674 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :tra%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:tra%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :tra%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :tra%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:tra%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :tra%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.655 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :translated%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:translated%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :translated%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to :translated%[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #(:translated%) (:buildings i))[0m
+  [0m   [0m  [33m                           ^--- Wrong number of args (0) passed to :translated%[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.662 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.613 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.668 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.611 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.631 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.601 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.651 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.682 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.636 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.662 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.626 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.615 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.43 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 31] Invalid keyword: :.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #([:]) (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 31] Invalid keyword: :.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.637 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.433 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 32] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(map #([:  (:translated %)]) (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 32] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.617 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.666 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.438 seconds.[0m
+[36m----  Could not Compile  src/reagtest/core.cljs  ----[0m
+
+  [1mfailed compiling file:src/reagtest/core.cljs[0m
+
+[36m----  Compiler Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.434 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 67] Unmatched delimiter ).[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [:div  (:translated %)]) (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 67] Unmatched delimiter ).[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.423 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 63] Unmatched delimiter ).[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [  (:translated %)]) (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 63] Unmatched delimiter ).[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.434 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 64] Unmatched delimiter ).[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j  (:translated %)]) (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 64] Unmatched delimiter ).[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.475 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 47] Unmatched delimiter ).[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i))[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 47] Unmatched delimiter ).[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.418 seconds.[0m
+[36m----  Could not Analyze  src/reagtest/core.cljs   line:113  column:22  ----[0m
+
+  [1mWrong number of args (1) passed to: cljs.core/for[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)])[0m
+  [0m   [0m  [33m                     ^--- Wrong number of args (1) passed to: cljs.core/for[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Analysis Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.443 seconds.[0m
+[36m----  Could not Analyze  src/reagtest/core.cljs   line:113  column:22  ----[0m
+
+  [1mWrong number of args (1) passed to: cljs.core/for[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] )[0m
+  [0m   [0m  [33m                     ^--- Wrong number of args (1) passed to: cljs.core/for[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Analysis Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.648 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.616 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.437 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:116 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [33m116[0m  [1m       ])][0m
+  [0m   [0m  [33m       /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+  [36m117[0m  [36m[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m      ;(str " qw--->    " (keys (nth (:records @kanavat)0)) [0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.448 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:116 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [33m116[0m  [1m       ])][0m
+  [0m   [0m  [33m       /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+  [36m117[0m  [36m[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m      ;(str " qw--->    " (keys (nth (:records @kanavat)0)) [0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.466 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:116 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [33m116[0m  [1m       ])][0m
+  [0m   [0m  [33m       /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 10] Unmatched delimiter ).[0m
+  [36m117[0m  [36m[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m      ;(str " qw--->    " (keys (nth (:records @kanavat)0)) [0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.469 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:116 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 9] Unmatched delimiter ].[0m
+
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [33m116[0m  [1m       ])][0m
+  [0m   [0m  [33m       /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 116, col 9] Unmatched delimiter ].[0m
+  [36m117[0m  [36m[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m      ;(str " qw--->    " (keys (nth (:records @kanavat)0)) [0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.673 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.628 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.568 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.458 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] [: (:translated j)])[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.619 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.437 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] [: (:translated j)])[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.648 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.435 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] [: (:translated j)])[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.625 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.42 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] [: (:translated j)])[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.649 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src" "env/dev/cljs"] in 0.417 seconds.[0m
+[36m----  Could not Read  src/reagtest/core.cljs   line:113 ----[0m
+
+  [1m/Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(for [j   (:buildings i)] [: (:translated j)])[0m
+  [0m   [0m  [33m      /Users/mikamarkuksela/dev/clojure/aaa/kirjastoappi/src/reagtest/core.cljs [line 113, col 51] A single colon is not a valid keyword.[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Reader Error : Please see src/reagtest/core.cljs  ----[0m
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.621 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.694 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.63 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.628 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.638 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.639 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.618 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.634 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.65 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:23  ----[0m
+
+  [1mUse of undeclared Var reagtest.core/MAP[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(MAP " " (keys i))(for [j   (:buildings i)] [:p (:translated j)])[0m
+  [0m   [0m  [33m                      ^--- Use of undeclared Var reagtest.core/MAP[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/reagtest/core.cljs   line:113  column:23  ----[0m
+
+  [1mUse of undeclared Var reagtest.core/MAP[0m
+
+  [36m111[0m  [36m[:ul[0m
+  [36m112[0m  [36m    (for [i (:records @kanavat)][0m
+  [33m113[0m  [1m      [:li (:title i)(MAP " " (keys i))(for [j   (:buildings i)] [:p (:translated j)])[0m
+  [0m   [0m  [33m                      ^--- Use of undeclared Var reagtest.core/MAP[0m
+  [36m114[0m  [36m      ; (str "--> " (map #(str % "-> " (% i)) (keys i))) [0m
+  [36m115[0m  [36m      ;" " (:id i)[0m
+  [36m116[0m  [36m       ])][0m
+
+[36m----  Compiler Warning : Please see src/reagtest/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.661 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.647 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.656 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.605 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.644 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.634 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.63 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.64 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.619 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.618 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.623 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.624 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.636 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.624 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.639 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.609 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.636 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  public/js/out/reagtest/core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "public/js/app.js" in 1.705 seconds.[0m
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public/js/out/reagtest/core.js

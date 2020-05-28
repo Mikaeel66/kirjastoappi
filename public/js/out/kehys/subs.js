@@ -44,4 +44,4 @@ re_frame.core.reg_sub.call(null,new cljs.core.Keyword("kehys.subs","muuvi","kehy
 return new cljs.core.Keyword(null,"muuvi","muuvi",767842520).cljs$core$IFn$_invoke$arity$1(db);
 }));
 
-//# sourceMappingURL=subs.js.map?rel=1589676417676
+//# sourceMappingURL=subs.js.map?rel=1589677411577
